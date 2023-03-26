@@ -25,7 +25,7 @@ struct Map: View {
             VStack {
                 
                 VStack(spacing: 0) {
-                    HStack {
+/*                    HStack {
                         Image(systemName: "magnifyingglass.circle")
                             .foregroundColor(.gray)
                         
@@ -38,7 +38,7 @@ struct Map: View {
                     .padding(.top)
          
                     // Displaying results
-               /*     if !mapData.places.isEmpty && mapData.search != "" {
+                   if !mapData.places.isEmpty && mapData.search != "" {
                         
                         ScrollView {
                             
@@ -67,7 +67,6 @@ struct Map: View {
                     
                 }
                 .padding()
-                
                 
                 Spacer()
                 
